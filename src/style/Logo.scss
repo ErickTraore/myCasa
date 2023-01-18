@@ -1,0 +1,41 @@
+.group {
+    width: 100%;
+    height: auto;
+    position: relative;
+            &__logo{
+                max-width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: row nowrap;
+                margin-left: 15px;
+                align-items: baseline;
+                &__K img{
+                    width: 100%;
+                    min-width: 1.5rem;
+                    height: auto;
+                    display: flex;
+                    margin-right: 0.2rem;                }
+    }
+  } 
+@media screen and (min-width: 426px) {
+    .group {
+        width: 100%;
+        height: auto;
+        position: relative;
+                &__logo{
+                    max-width: 100%;
+                    height: 40%;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    margin-left: 15px;
+                    // align-items: baseline;
+                    &__K img{
+                        width: 35%;
+                        min-width: 1.5rem;
+                        height: auto;
+                        display: flex;
+                        margin-right: 0.2rem;                }
+        }
+      } 
+
+}

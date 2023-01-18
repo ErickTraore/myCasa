@@ -1,0 +1,89 @@
+    .text-link {
+        text-decoration: none;
+        color: rgb(255, 0, 93);
+        
+    }
+    .Navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: rgb(255, 0, 93);
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    text-transform: uppercase;
+
+    :focus{
+    color: rgb(255, 0, 93);
+    text-decoration: underline red;
+    }           
+    &__accueil, Link{
+    padding:  0px 10px;
+    font-size: 10px;
+    }
+    &__services, Link{
+    padding:  0px 10px;
+    font-size: 10px;
+    }
+  }
+@media screen and (min-width: 426px) {
+    .text-link {
+        text-decoration: none;
+        color: rgb(255, 0, 93);
+    }
+    .Navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: rgb(255, 0, 93);
+    font-size: small;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 0px;
+    text-transform: none;;
+
+    :focus{
+        color: rgb(255, 0, 93);
+        text-decoration: underline red;
+    }  
+    &__accueil, Link{
+    padding:  0px 30px;
+    font-size: 14px;
+    }
+    &__services, Link{
+    padding:  0px 30px;
+    font-size: 14px;
+    }
+ }
+}
+@media screen and (min-width: 1024px) {
+    .text-link {
+        text-decoration: none;
+        color: rgb(255, 0, 93);
+    }
+    .Navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: rgb(255, 0, 93);
+    font-size: small;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 0px;
+    text-transform: none;;
+
+    :focus{
+        color: rgb(255, 0, 93);
+        text-decoration: underline red;
+    }  
+    &__accueil, Link{
+    padding:  0px 30px;
+    font-size: 20px;
+    }
+    &__services, Link{
+    padding:  0px 30px;
+    font-size: 20px;
+    }
+ }
+}
