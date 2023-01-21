@@ -4,10 +4,12 @@ import medium from '../assets/mAccueil-425.png';
 import large from '../assets/mAccueil-768.png';
 import xlarge from '../assets/mAccueil-1240.png';
 import '../../style/Home.scss';
+// import Displaying from "../../components/Displaying/Displaying";
+import ShoppingList from "../../components/ShoppingList/ShoppingList";
+
 
 export default function Home() {
-    return (
-        
+    return (       
         <div className="Home">
             <div className="Home__view">
                 <img  srcSet={`${small} 320w, 
@@ -20,7 +22,10 @@ export default function Home() {
                 <div className="Home__view__content">
                     <p>Chez vous, partout et ailleurs</p>
                 </div>           
-            </div>           
+            </div> 
+            <div className="Home__shopping">
+                  <ShoppingList />
+            </div>          
         </div>
         )  
 }
