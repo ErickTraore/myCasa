@@ -4,6 +4,8 @@ import Logo from "./components/Logo/Logo";
 import Services from "./components/Services/Services";
 import Profile from "./components/Profile/Profile";
 import Navbar from "./components/Navbar/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {

@@ -4,8 +4,8 @@ import medium from '../assets/mAccueil-425.png';
 import large from '../assets/mAccueil-768.png';
 import xlarge from '../assets/mAccueil-1240.png';
 import '../../style/Home.scss';
-// import Displaying from "../../components/Displaying/Displaying";
-import ShoppingList from "../../components/ShoppingList/ShoppingList";
+import BasicExample from "../../components/BasicExample/BasicExample";
+// import ShoppingList from "../../components/ShoppingList/ShoppingList";
 
 
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
                 </div>           
             </div> 
             <div className="Home__shopping">
-                  <ShoppingList />
+                  <BasicExample />
             </div>          
         </div>
         )  

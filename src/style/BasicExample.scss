@@ -1,0 +1,35 @@
+
+.basic {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    &__div{
+        width: 18rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border: 3px solid red;
+        position: relative;
+
+
+        &__image{
+            width: 18rem;
+            height: auto;
+            display: flex;
+            z-index: 0;
+            // background-image: linear-gradient(white, #3b3b47);
+
+        } &__title{
+            width: 18rem;
+            height: auto;
+            display: flex;
+            position: absolute;
+            font-size: medium;
+            color: white;
+            top: 130px; 
+            left: 15x;
+
+        }
+    }
+}
