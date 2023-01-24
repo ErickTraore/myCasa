@@ -9,20 +9,19 @@ import '../../style/BasicExample.scss';
 
 function BasicExample() {
   return (
-    <div className="basic">
-            {docdivst.map((doc, index) => (
-                <div className="basic__div" key={`${doc}-${index}`}>
-                      <Card className="basic__div__block">
+    <div className="img">
+        {docdivst.map((doc, index) => (
+                <div className="img__doc" key={`${doc}-${index}`}>
+                      <Card className="img__doc__lumn">
                           <Card.Img src={doc.cover} />
-                          <div className="basic__div__block__content">
+                          <div className="img__doc__lumn__p2">
                           </div>
-                          <div className="basic__div__block__title">
+                          <div className="img__doc__lumn__p2__title">
                             { doc.title}
                           </div>
                       </Card>
-
                 </div>
-            ))}
+        ))}
     </div>
 
   );

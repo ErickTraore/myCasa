@@ -5,79 +5,89 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .basic{
-    &__div{
-        &__block{
+  
+  .img{
+    &__doc{
+         width: 100%;
+            height: auto;
+    &__lumn{
             position: relative;
             width: 100%;
-            height: 250px;
-            display: flex;
-            flex-wrap: wrap;
+            height: auto;
             justify-content: space-around;
-            border: 1px #DDD solid;
             margin: 6% 0%;
-            &__content{
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-                color: #EEE;
-                padding: 10px;
+            border-radius: 10px;
+            &__p2{
+                width: 100%;
+                height: auto;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+                    color: #EEE;
+                    border-radius: 10px;                
+                &__title{
+                    width: 100%;
+                    height: auto;
+                        position: absolute;
+                        top: 30;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        color: #EEE;
+                        padding: 5px;
+                    }
             }
-            &__title{
-                position: absolute;
-                top: 30;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                color: #EEE;
-                padding: 10px;
-            }
-        }
     }
-
 }
-// .basic {
-//     width: auto;
-//     height: auto;
-//     display: flex;
-//     flex-wrap: wrap;
-//     &__div{
-//         width: 18rem;
-//         height: auto;
-//         display: flex;
-//         flex-direction: column;
-//         position: relative;
+  }
+    
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .img{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        margin: 2% 0px;
+        // border: solid 3px blue;
+        &__doc{
+           width: 30%;
+           height: auto;
+        //    border: solid 3px black;
+        &__lumn{
+                position: relative;
+                width: 100%;
+                height: 250px;
+                justify-content: space-around;
+                margin: 6% 0%;
+                border-radius: 10px;
+                &__p2{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+                        color: #EEE;
+                        border-radius: 10px; 
+                        // border: solid 3px red;
 
-
-//         &__image{
-//             width: 18rem;
-//             height: auto;
-//             display: flex;
-//             z-index: 0;
-//             // filter: sepia(1);
-//         }
-//         :after {
-//             position: absolute;
-//             // div:"";
-//             height:100%;
-//             width:100%;
-//             top: 10px;
-//             left:0;
-//             background: linear-gradient(to bottom, rgba(255,0,0,0) 0%,rgba(255,0,0,0.65) 100%);
-//         }
-//         &__title{
-//             width: 18rem;
-//             height: auto;
-//             display: flex;
-//             position: absolute;
-//             font-size: medium;
-//             color: white;
-//             top: 130px; 
-//             left: 15x;
-
-//         }
-//     }
-// }
+                    &__title{
+                            position: absolute;
+                            top: 30;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            color: #EEE;
+                            padding: 10px;
+                        }
+                }
+        }
+    }  
+}
+}

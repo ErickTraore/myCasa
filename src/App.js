@@ -6,8 +6,6 @@ import Profile from "./components/Profile/Profile";
 import Navbar from "./components/Navbar/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
 function App() {
   return (
     <container className="Header">
@@ -29,5 +27,4 @@ function App() {
     </container>
   );
 }
-
 export default App;
