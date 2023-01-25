@@ -10,14 +10,12 @@ $colorImg-3: 300px;
     &__view{
     display: flex;
     justify-content: center;
-    // align-content: center;
     position: relative;
     img {
     width: 100%;
     height: $colorImg-1;
     display: flex;
     justify-content: center;
-    // align-content: center;
     border-radius: 10px;
     object-fit: cover;
     }
