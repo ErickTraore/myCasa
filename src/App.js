@@ -6,14 +6,16 @@ import Profile from "./components/Profile/Profile";
 import Navbar from "./components/Navbar/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+
 function App() {
   return (
-    <container className="Header">
-      <content className="Header__AppHeader">
-        <div className="Header__AppHeader__AppLogo">
+    <container className="Body">
+      <content className="Body__AppHeader">
+        <div className="Body__AppHeader__AppLogo">
           <Logo />
         </div>
-        <div className="Header__AppHeader__AppNav">
+        <div className="Body__AppHeader__AppNav">
           <Navbar />
         </div>
       </content>
@@ -27,4 +29,5 @@ function App() {
     </container>
   );
 }
+
 export default App;
